@@ -92,3 +92,4 @@ El archivo de configuración se encuentra en `.github/workflows/python-ci.yml`.
 
 ¡Gracias!
 > Última actualización: 8 de mayo de 2025
+"# Test trigger CI" 
