@@ -102,3 +102,5 @@ El archivo de configuración se encuentra en `.github/workflows/python-ci.yml`.
 <!-- Forzar nuevo build de CI/CD -->
 # Build Fix Intentional
 Último intento de corregir error de importación en CI/CD.
+Última actualización: 2025-05-09
+Actualización menor para CI.
