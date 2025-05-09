@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app import models
-from app.database import get_db
+from .. import models
+from ..database import get_db
 
 router = APIRouter()
 
@@ -14,7 +14,7 @@ def create_transaction(user_id: int, amount: float, db: Session = Depends(get_db
     # Validación básica de autorización
     if amount <= 0:
         raise HTTPException(status_code=400, detail="Monto inválido")
-    if amount > 5000:  # Simulación: no autorizamos montos altos
+    if amount > 5000:
         raise HTTPException(status_code=403, detail="Transacción no autorizada")
 
     transaction = models.Transaction(user_id=user_id, amount=amount)
