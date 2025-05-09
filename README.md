@@ -28,13 +28,13 @@ source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## ▶️ Uso
+# Uso
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Visita la documentación interactiva en: [http://localhost:8000/docs](http://localhost:8000/docs)
+Documentación interactiva en: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ##  Ejecutar pruebas
 
