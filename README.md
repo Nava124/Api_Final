@@ -104,3 +104,4 @@ El archivo de configuración se encuentra en `.github/workflows/python-ci.yml`.
 Último intento de corregir error de importación en CI/CD.
 Última actualización: 2025-05-09
 Actualización menor para CI.
+# Trigger para workflow
