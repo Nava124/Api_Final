@@ -105,3 +105,4 @@ El archivo de configuración se encuentra en `.github/workflows/python-ci.yml`.
 Última actualización: 2025-05-09
 Actualización menor para CI.
 # Trigger para workflow
+<!-- CI/CD Trigger -->
