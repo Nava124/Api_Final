@@ -99,5 +99,5 @@ El archivo de configuración se encuentra en `.github/workflows/python-ci.yml`.
 <!-- Última edición: 9 de mayo de 2025 -->
 <!-- Editado manualmente para activación -->
 <!-- Trigger nuevo CI -->
-
-
+<!-- Forzar nuevo build de CI/CD -->
+# Build Fix Intentional
